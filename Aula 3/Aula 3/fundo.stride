@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="fundo" extends="MyWorld" extends-java="MyWorld" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class fundo.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepara o mundo para o início do programa.
+Ou seja: criar os objetos iniciais e adicioná-los ao mundo.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="pessoa" type-java="pessoa" name="pessoa" value="new pessoa()" value-java=" new pessoa()" enable="true"/>
+                <call expression="addObject(pessoa,373,197)" expression-java="addObject(pessoa, 373, 197)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa,62,69)" expression-java="addObject(casa, 62, 69)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa2" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa2,164,66)" expression-java="addObject(casa2, 164, 66)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa3" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa3,275,67)" expression-java="addObject(casa3, 275, 67)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa4" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa4,379,68)" expression-java="addObject(casa4, 379, 68)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa5" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa5,497,69)" expression-java="addObject(casa5, 497, 69)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa6" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa6,48,350)" expression-java="addObject(casa6, 48, 350)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa7" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa7,146,344)" expression-java="addObject(casa7, 146, 344)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa8" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa8,246,345)" expression-java="addObject(casa8, 246, 345)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa9" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa9,338,345)" expression-java="addObject(casa9, 338, 345)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa10" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa10,433,339)" expression-java="addObject(casa10, 433, 339)" enable="true"/>
+                <variable type="casa" type-java="casa" name="casa11" value="new casa()" value-java=" new casa()" enable="true"/>
+                <call expression="addObject(casa11,523,344)" expression-java="addObject(casa11, 523, 344)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore,480,363)" expression-java="addObject(arvore, 480, 363)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore2" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore2,379,366)" expression-java="addObject(arvore2, 379, 366)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore3" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore3,289,367)" expression-java="addObject(arvore3, 289, 367)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore4" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore4,191,371)" expression-java="addObject(arvore4, 191, 371)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore5" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore5,92,367)" expression-java="addObject(arvore5, 92, 367)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore6" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore6,17,89)" expression-java="addObject(arvore6, 17, 89)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore7" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore7,114,96)" expression-java="addObject(arvore7, 114, 96)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore8" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore8,218,95)" expression-java="addObject(arvore8, 218, 95)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore9" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore9,328,88)" expression-java="addObject(arvore9, 328, 88)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore10" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore10,440,97)" expression-java="addObject(arvore10, 440, 97)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore11" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore11,555,95)" expression-java="addObject(arvore11, 555, 95)" enable="true"/>
+                <variable type="arvore" type-java="arvore" name="arvore12" value="new arvore()" value-java=" new arvore()" enable="true"/>
+                <call expression="addObject(arvore12,575,363)" expression-java="addObject(arvore12, 575, 363)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
