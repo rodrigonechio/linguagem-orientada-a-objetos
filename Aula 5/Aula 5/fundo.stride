@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="fundo" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class fundo.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,400,1" params-java="600, 400, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="formiga" type-java="formiga" name="formiga" value="new formiga()" value-java=" new formiga()" enable="true"/>
+                <call expression="addObject(formiga,376,200)" expression-java="addObject(formiga, 376, 200)" enable="true"/>
+                <variable type="bomba" type-java="bomba" name="bomba" value="new bomba()" value-java=" new bomba()" enable="true"/>
+                <call expression="addObject(bomba,250,305)" expression-java="addObject(bomba, 250, 305)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
