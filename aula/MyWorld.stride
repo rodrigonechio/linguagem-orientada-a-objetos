@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="MyWorld" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields>
+        <variable access="private" type="Pontos" type-java="Pontos" name="score" enable="true"/>
+    </fields>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class MyWorld.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,400,1" params-java="600, 400, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+                <assign dest="score" dest-java="score" src="new Pontos()" src-java=" new Pontos()" enable="true"/>
+                <call expression="addObject(score,50,20)" expression-java="addObject(score, 50, 20)" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepara o mundo para o início do programa.
+Ou seja: criar os objetos iniciais e adicioná-los ao mundo.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="balao" type-java="balao" name="balao" value="new balao()" value-java=" new balao()" enable="true"/>
+                <call expression="addObject(balao,439,197)" expression-java="addObject(balao, 439, 197)" enable="true"/>
+                <variable type="balao" type-java="balao" name="balao2" value="new balao()" value-java=" new balao()" enable="true"/>
+                <call expression="addObject(balao2,360,147)" expression-java="addObject(balao2, 360, 147)" enable="true"/>
+                <variable type="balao" type-java="balao" name="balao3" value="new balao()" value-java=" new balao()" enable="true"/>
+                <call expression="addObject(balao3,208,150)" expression-java="addObject(balao3, 208, 150)" enable="true"/>
+                <variable type="balao" type-java="balao" name="balao4" value="new balao()" value-java=" new balao()" enable="true"/>
+                <call expression="addObject(balao4,180,258)" expression-java="addObject(balao4, 180, 258)" enable="true"/>
+                <variable type="balao" type-java="balao" name="balao5" value="new balao()" value-java=" new balao()" enable="true"/>
+                <call expression="addObject(balao5,90,305)" expression-java="addObject(balao5, 90, 305)" enable="true"/>
+                <variable type="balao" type-java="balao" name="balao6" value="new balao()" value-java=" new balao()" enable="true"/>
+                <call expression="addObject(balao6,227,69)" expression-java="addObject(balao6, 227, 69)" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="Pontos" type-java="Pontos" name="getScore" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <return value="score" value-java="score" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
